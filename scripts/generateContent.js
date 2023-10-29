@@ -1,6 +1,7 @@
 function generateContact(name, telephone, email, notes) {
   //   const li = contactTemplate(name, telephone, email, notes);
   const li = document.createElement("li");
+  li.classList.add("single-contact");
 
   // this will create a new li
   if (name && telephone && email) {
@@ -19,7 +20,8 @@ function generateContact(name, telephone, email, notes) {
 
 // function contactTemplate(name, telephone, email, notes) {
 //   const li = document.createElement("li");
-
+//   li.classList.add("single-contact");
+//
 //   if (name && telephone && email) {
 //     li.innerHTML = `<h3>🌏</h3><p><strong>Name</strong>: ${name}</p>
 //     <p><strong>Tel:</strong></strong> ${telephone}</p>
