@@ -13,8 +13,6 @@ function generateContact(name, telephone, email, notes) {
     const ul = document.querySelector("ul");
     // append the newly created li
     ul.append(li);
-  } else {
-    return;
   }
 }
 
