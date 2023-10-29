@@ -49,14 +49,16 @@ main {
 }
 
 form input,
-form label {
+form label,
+form textarea {
   box-sizing: border-box;
   display: block;
   margin: 5px 0;
   width: 100%;
 }
 
-form input {
+form input,
+form textarea {
   border: 1px solid #73956f;
   padding: 8px;
 }
